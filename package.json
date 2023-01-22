@@ -1,0 +1,29 @@
+{
+  "name": "ac-serverstatus-bot",
+  "version": "1.0.0",
+  "description": "Discord bot to create Assetto Corsa game server status embeds",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index",
+    "dev": "nodemon src/index.js",
+    "deployCommands": "node src/deploy-commands.js"
+  },
+  "keywords": [
+    "discord-bot",
+    "assetto-corsa"
+  ],
+  "author": "christian-kth",
+  "license": "GNU GPL v3.0",
+  "dependencies": {
+    "@discordjs/builders": "^1.4.0",
+    "@discordjs/rest": "^1.5.0",
+    "discord-api-types": "^0.37.28",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "prettier": "2.8.3"
+  }
+}
